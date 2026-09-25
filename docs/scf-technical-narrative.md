@@ -169,6 +169,7 @@ and emergency pause capability is available.
 
 - [Architecture](Architecture.md) — full system design
 - [Audit Readiness Dashboard](audit-readiness-dashboard.md) — audit tracking
+- [Token Economics Paper](token-economics.md) — reward-rate rationale, yields, sustainability
 - [Threat Model](threat-model.md) — security assumptions
 - [Mainnet Launch Checklist](mainnet-launch-checklist.md) — launch readiness
 - [CONTRIBUTING.md](../CONTRIBUTING.md) — contributor workflow

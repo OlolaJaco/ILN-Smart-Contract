@@ -123,7 +123,7 @@ These items improve operations and community engagement but are not blocking aud
 |------|--------|---|
 | Publish LP risk management guide (KYC, portfolio diversification, default monitoring) | ❌ Open | Educate on credit risk assumptions |
 | Governance playbook (parameter ranges, oracle vetting, emergency procedures) | ❌ Open | Standard operating procedures |
-| Token economics paper (reward rates, distribution model, expected yields) | ❌ Open | Justification for economic design |
+| Token economics paper (reward rates, distribution model, expected yields) | 🟡 Drafted, reviewer sign-off pending | [token-economics.md](token-economics.md) (#895); findings F1–F4 need resolution or acceptance |
 
 ### Community & Ecosystem
 

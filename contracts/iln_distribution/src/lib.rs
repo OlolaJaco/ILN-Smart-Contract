@@ -917,3 +917,6 @@ mod test {
 #[cfg(test)]
 mod tests_distribution_proptest;
 
+
+#[cfg(test)]
+mod tests_economics;

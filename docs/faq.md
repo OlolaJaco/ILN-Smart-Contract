@@ -55,7 +55,7 @@ Funds are locked in the escrow contract until the payer calls `mark_paid` or the
 The protocol supports transitioning an invoice to a `PartiallyFunded` state if the LP does not cover the full requested amount. This allows multiple LPs to pool resources for larger invoices. You can test this flow using our [SDK Integration Guide](sdk-integration.md).
 
 ### 15. How are rewards and incentives distributed?
-Beyond standard yield, LPs may receive additional token rewards distributed via the `iln_distribution` contract to bootstrap network liquidity. These incentives are tied to the governance token. Details on claiming rewards are available in the [Governance](governance.md) guide.
+Beyond standard yield, LPs may receive additional token rewards distributed via the `iln_distribution` contract to bootstrap network liquidity. These incentives are tied to the governance token. Details on claiming rewards are available in the [Governance](governance.md) guide; the rate rationale, expected yields and sustainability analysis are in the [Token Economics Paper](token-economics.md).
 
 ---
 
