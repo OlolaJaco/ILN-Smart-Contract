@@ -46,7 +46,7 @@ A high reputation score can grant you a reputation-based discount bonus, making 
 LPs fund invoices at a discount (e.g., funding 90 USDC for a 100 USDC invoice). When the payer settles the full invoice amount, the LP receives their principal plus the yield (the 10 USDC difference). The exact payout logic is explained in the [Architecture](Architecture.md) document.
 
 ### 12. What are the risks of default on funded invoices?
-If a payer fails to settle the invoice by the due date, the invoice may default. In such cases, the LP absorbs the loss, though future protocol upgrades may introduce insurance or fractional recovery mechanisms. Please review the [Threat Model](threat-model.md) for a comprehensive list of risks.
+If a payer fails to settle the invoice by the due date, the invoice may default. In such cases, the LP absorbs the loss, though future protocol upgrades may introduce insurance or fractional recovery mechanisms. Please review the [Threat Model](threat-model.md) for a comprehensive list of risks, and the [LP Risk Management Guide](lp-risk-management-guide.md) for how to vet payers, diversify, and use reputation and default data.
 
 ### 13. When can I withdraw my funds from a funded invoice?
 Funds are locked in the escrow contract until the payer calls `mark_paid` or the invoice undergoes a formal default or dispute resolution. There is no premature withdrawal for LPs to ensure the freelancer has guaranteed liquidity. See the [Events](events.md) page to learn how to track settlement.

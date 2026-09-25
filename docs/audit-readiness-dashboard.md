@@ -121,7 +121,7 @@ These items improve operations and community engagement but are not blocking aud
 
 | Item | Status | Notes |
 |------|--------|---|
-| Publish LP risk management guide (KYC, portfolio diversification, default monitoring) | ❌ Open | Educate on credit risk assumptions |
+| Publish LP risk management guide (KYC, portfolio diversification, default monitoring) | 🟡 Drafted | [lp-risk-management-guide.md](lp-risk-management-guide.md) (#893); cross-linked from FAQ and SDK guide |
 | Governance playbook (parameter ranges, oracle vetting, emergency procedures) | ❌ Open | Standard operating procedures |
 | Token economics paper (reward rates, distribution model, expected yields) | ❌ Open | Justification for economic design |
 

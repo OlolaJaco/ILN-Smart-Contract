@@ -202,6 +202,10 @@ console.log(`Invoice cancelled: ${txHash}`);
 Liquidity providers (LPs) browse open invoices, fund the ones they like, and can
 transfer a funded position to another LP on a secondary market.
 
+> **Before you fund:** read the [LP Risk Management Guide](lp-risk-management-guide.md) —
+> payer due diligence, diversification limits, and how to use the reputation and
+> default data below.
+
 ### Browse the marketplace
 
 For discovery, query the **indexer API** (fast, paginated, off-chain). For
@@ -533,6 +537,9 @@ Read-only data for dashboards and reputation displays. None of these require a
 signer.
 
 ### Reputation
+
+For how to interpret these values when deciding whether to fund, see the
+[LP Risk Management Guide](lp-risk-management-guide.md#4-using-the-reputation-score).
 
 ```ts
 import { getReputation } from "@iln/sdk";
