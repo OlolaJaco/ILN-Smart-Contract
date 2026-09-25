@@ -75,6 +75,9 @@ All on-chain actions are defined by the `ProposalAction` enum.
 > incident history) a proposal must include, and the required proposal
 > template.
 
+> **Operating a change?** Safe ranges, the oracle gate and the emergency card are consolidated in the
+> [Governance Operations Playbook](governance-operations-playbook.md).
+
 Admin-only functions that are **not** governable via proposals:
 `set_admin`, `set_distribution_contract`.
 

@@ -1,0 +1,23 @@
+name: Governance Playbook Constants Check
+
+on:
+  pull_request:
+    paths:
+      - "docs/governance-operations-playbook.md"
+      - "contracts/*/src/**"
+      - "scripts/check-playbook-constants.ts"
+      - "scripts/check-playbook-constants.test.ts"
+  workflow_dispatch: {}
+
+jobs:
+  check-playbook-constants:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Verify playbook constants match contract source
+        run: node --experimental-strip-types --test scripts/check-playbook-constants.test.ts
